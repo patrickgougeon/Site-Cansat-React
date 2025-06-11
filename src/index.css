@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* Header */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+body::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #1F2B51;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#header2 {
+    background-color: #3754a2;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container nav .logo {
+    cursor: pointer;
+}
+
+.container .nav-link {
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #3754a2;
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+    top: -800px;
+    right: 0;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.nav-link.active {
+    top: 15%;
+    display: flex;
+}
+
+.link-Comp {
+    background-color: inherit;
+    border-style: none;
+    margin-left: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.botao-Comp {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+.container .navlink li {
+    margin: 0.5rem 0;
+}
+
+.container ul li a {
+    color: white;
+    font-size: 1.3rem;
+    padding: 0.7rem 1rem;
+    display: block;
+    border-radius: 4px;
+}
+
+.content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+
+.inativo {
+    display: none;
+}
+
+/* Main */
+
+main {
+    min-height: calc(100vh - 200px);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+#main-inscricao {
+    background-color: #efab1a;
+}
+
+#regras {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#premiacao {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #efab1a;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F2B51;
+    color: white;
+    padding-top: 15px;
+}
+
+#footer-info {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.info {
+    padding-left: 15px;
+}
+
+#copyright {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+
+@media (min-width: 769px) {
+    .container {
+        max-width: 1440px;
+    }
+
+    .container .nav-link {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        background: none;
+        height: auto;
+        width: auto;
+        top: auto;
+        right: auto;
+        z-index: auto;
+    }
+
+    .container .navlink li {
+        margin: 0 0.5rem;
+    }
+
+    .container ul li a {
+        color: aliceblue;
+    }
+
+    .content h2 {
+        font-size: 6rem;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-info {
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 15px;
+    }
+
+  
+    .forms {
+        width: 50%;
+        max-width: 700px;
+        margin: auto;
+        padding: 40px;
+    }
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fcfcfc; 
+    border: 2px solid #3754a2;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.forms h2, .forms p {
+    text-align: center;
+    color: #1F2B51;
+    margin-bottom: 15px;
+    font-size: 28px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.forms p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+.forms input[type="text"],
+.forms input[type="email"],
+.forms input[type="tel"],
+.forms textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+    background-color: white; 
+    color: #333;
+}
+
+
+.forms input:focus,
+.forms textarea:focus {
+    border-color: #efab1a; 
+    outline: none;
+    box-shadow: 0 0 5px rgba(239, 171, 26, 0.5);
+}
+
+.forms textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.forms button[type="submit"] {
+    background-color: #3754a2;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.forms button[type="submit"]:hover {
+    background-color: #1F2B51;
+    transform: translateY(-2px);
+}
+
+.forms button[type="submit"]:active {
+    transform: translateY(0);
+}
+
+.forms button[type="button"] {
+    background-color: #efab1a;
+    color: #1F2B51;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.15rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.forms button[type="button"]:hover {
+    background-color: #d19700;
+    transform: translateY(-2px);
+}
+
+.forms button[type="button"]:active {
+    transform: translateY(0);
+}
+
