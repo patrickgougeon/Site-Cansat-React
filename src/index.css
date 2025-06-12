@@ -364,18 +364,18 @@ footer {
 }
 
 #homemain {
-    height: 100%;
     margin: 0;
-    flex: 1;
     display: flex;
     flex-direction: column;
 }
 
 #primeira {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center; 
     align-items: center;  
+    text-align: center;
+    padding: 60px 20px;
 }
 
 #primeira h1 {
@@ -390,7 +390,7 @@ footer {
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3 ease 0s;
+    transition: all 0.3s ease;
     color: #002555;
     margin-left: 2px;
     font-size: 30px;
@@ -401,13 +401,12 @@ footer {
 }
 
 #segunda {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to bottom, #0d1b3d, #2d52a3);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 100px 20px;
 }
 
 #card {
@@ -417,6 +416,7 @@ footer {
     display: flex;
     max-width: 1600px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
 }
 
 #text-section {
@@ -427,7 +427,7 @@ footer {
 #text-section h2 {
     color: #0d1b3d;
     font-size: 50px;
-    }
+}
 
 #text-section p {
     font-size: 40px;
@@ -446,20 +446,20 @@ footer {
 }
 
 #terceira {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(240, 197, 5);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 100px 20px;
+    flex-direction: column;
 }
 
 #tcontainer {
     padding: 100px 40px;
     text-align: center;
 }
-        
+
 #tcontainer h1 {
     color: #1a1a3d;
     margin-bottom: 40px;
@@ -472,7 +472,7 @@ footer {
     flex-wrap: wrap;
 }
 
-#tcard {
+#tcard1, #tcard2 {
     background-color: white;
     border-radius: 35px;
     padding: 120px;
@@ -481,24 +481,24 @@ footer {
     text-align: left;
 }
 
-#tcard h3 {
+#tcard1 h3, #tcard2 h3 {
     margin-top: 0;
     color: #1a1a3d;
     font-size: 40px;
 }
 
-#tcard p {
+#tcard1 p, #tcard2 p {
     font-size: 30px;
     color: #333;
 }
 
 #quarta {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding: 100px 20px;
+    flex-direction: column;
 }
 
 #qconteiner {
@@ -530,28 +530,39 @@ footer {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
-
+@media (max-width: 781px) {
     #card {
-        height: 85%;
         width: 95%;
+        justify-content: right;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 20px;
     }
+
     #img-section {
         display: none;
     }
+
     #text-section p {
-        gap: 100px;
-        font-size: 32px;
+        font-size: 24px;
     }
+
     #text-section h2 {
-        font-size: 45px;
+        font-size: 40px;
     }
 
-    #quarta {
-        height: 150vh;
+    #tcard1 {
+        padding: 100px;
+        width: 100%;
+        height: auto;
     }
 
-    #terceira {
-        height: 120vh;
+    #tcard2 {
+        display: none;
+    }
+
+    #patrocinadores-box {
+        width: 100%;
+        height: 50vh;
     }
 }

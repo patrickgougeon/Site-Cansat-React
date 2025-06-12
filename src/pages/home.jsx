@@ -33,11 +33,11 @@ import Footer from "../components/Footer"
                 <div id="tcontainer">
                     <h1>Atualizações</h1>
                     <div id="tcards">
-                    <div id="tcard">
+                    <div id="tcard1">
                         <h3>Lorem</h3>
                         <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
                     </div>
-                    <div id="tcard">
+                    <div id="tcard2">
                         <h3>Lorem</h3>
                         <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum.</p>
                     </div>
