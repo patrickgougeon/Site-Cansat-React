@@ -31,8 +31,11 @@ export function Competicoes() {
       </header>
 
       <main id="competicoes">
-        
-        <div id="cansat-2025">
+
+        <div id="cansat-2025">`
+          
+          <h1>CANSAT 2025</h1>
+
           <section id="regras">
             <h2>Regras</h2> 
 
@@ -47,15 +50,17 @@ export function Competicoes() {
 
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!
+            </p>
             
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
             
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
 
             <br />
           </section>
@@ -66,12 +71,12 @@ export function Competicoes() {
 
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam dolorem laboriosam sint odio, tempore officiis libero repellat corrupti dolorum vitae harum voluptas assumenda magni, similique incidunt hic nesciunt alias.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam dolorem laboriosam sint odio, tempore officiis libero repellat corrupti dolorum vitae harum voluptas assumenda magni, similique incidunt hic nesciunt alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
           </section>
         </div>
 
         <div id="competicoes-anteriores" className="inativo">
-          <h1>Competicoes Anteriores!</h1>
+          <h1>Competições Anteriores</h1>
         </div>
       </main>
 

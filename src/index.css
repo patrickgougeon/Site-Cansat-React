@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 
-/* Header */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header */
 
 ul {
     list-style-type: none;
@@ -130,20 +131,41 @@ header {
 
 /* Main */
 
-main {
-    min-height: calc(100vh - 200px);
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+/* === ALTERAÇÃO 1: Adicionado padding para criar o espaço interno amarelo === */
+#inscricao {
+    background-color: #efab1a;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-#main-inscricao {
-    background-color: #efab1a;
+main h1 {
+    margin: 20px 30px;
+    font-size: 45px;
+}
+
+main h2 {
+    font-size: 35px;
+}
+
+main h3 {
+    font-size: 25px;
+}
+
+main p {
+    font-size: 20px;
+}
+
+#apresentacao-insc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    margin: 0 20px 60px 20px;
+    color: #1F2B51;
 }
 
 #regras {
-    padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -229,21 +251,22 @@ footer {
         padding-top: 15px;
     }
 
-  
+    
     .forms {
         width: 50%;
         max-width: 700px;
-        margin: auto;
+        margin: auto; /* Margem vertical é controlada pelo padding do pai agora */
         padding: 40px;
     }
 }
 
+/* === ALTERAÇÃO 2: Removida a margem vertical do formulário === */
 .forms {
     display: flex;
     flex-direction: column;
     width: 90%;
     max-width: 500px;
-    margin: 50px auto;
+    margin: 20px auto; /* Apenas margem horizontal para centralizar */
     padding: 30px;
     background-color: #fcfcfc; 
     border: 2px solid #3754a2;
@@ -339,4 +362,3 @@ footer {
 .forms button[type="button"]:active {
     transform: translateY(0);
 }
-

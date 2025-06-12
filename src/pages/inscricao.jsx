@@ -7,8 +7,10 @@ import Formulario from "../components/Formulario";
       <>
         <Navbar />
         <main id="inscricao">
-          <h1>Página de Inscrição</h1>
-          <p>Preencha o formulário abaixo para se inscrever e gerar seu comprovante em PDF.</p>
+          <div id="apresentacao-insc">
+            <h1>Página de Inscrição</h1>
+            <p>Preencha o formulário abaixo para se inscrever e gerar seu comprovante em PDF.</p>
+          </div>
           <Formulario />
         </main>
         <Footer />

@@ -76,6 +76,7 @@ export default function Formulario() {
   return (
     <form className="forms" onSubmit={handleSubmit} id="form-content"> 
       <input 
+        type="text"
         name="nomeEquipe" 
         onChange={handleChange} 
         placeholder="Nome da Equipe" 
