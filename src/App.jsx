@@ -6,7 +6,7 @@ import { Sobre } from "./pages/sobre"
 
 function App() {
   return (
-    <Router> /* Conectando as páginas */
+    <Router> {/* Conectando as páginas */}
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/sobre" element={<Sobre />}/>
