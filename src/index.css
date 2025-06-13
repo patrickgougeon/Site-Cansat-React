@@ -129,9 +129,8 @@ header {
     display: none;
 }
 
-/* Main */
+/* Main Competição*/
 
-/* === ALTERAÇÃO 1: Adicionado padding para criar o espaço interno amarelo === */
 #inscricao {
     background-color: #efab1a;
     padding-top: 50px;
@@ -295,6 +294,8 @@ footer {
     }
 
     
+     /* Página de Inscrição */
+
     .forms {
         width: 50%;
         max-width: 700px;
@@ -303,7 +304,7 @@ footer {
     }
 }
 
-/* === ALTERAÇÃO 2: Removida a margem vertical do formulário === */
+
 .forms {
     display: flex;
     flex-direction: column;
@@ -405,6 +406,8 @@ footer {
 .forms button[type="button"]:active {
     transform: translateY(0);
 }
+
+/* Página Home */
 
 #homemain {
     margin: 0;
@@ -608,12 +611,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 100px; /* Espaço maior entre as logos */
+  gap: 100px;
   margin-top: 30px;
 }
 
 .patrocinadores-box img {
-  width: 60px; /* Logos menores */
+  width: 60px; 
   height: auto;
   display: block;
 }
@@ -622,7 +625,7 @@ footer {
   text-align: center;
   margin-top: 0;
   margin-bottom: 6px;
-  font-size: 1.3rem;   /* Tamanho menor para "Redes Sociais" */
+  font-size: 1.3rem;   
   font-weight: bold;
   color: #1F2B51;
 }
@@ -630,7 +633,7 @@ footer {
 .segunda {
   background-color: #efab1a;
   width: 100%;
-  padding-top: 6px;    /* Linha amarela bem fina */
+  padding-top: 6px;   
   padding-bottom: 6px;
 }
 
@@ -638,14 +641,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;           /* Espaço menor entre as logos */
+  gap: 24px;           
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
 }
 
 .patrocinadores-box img {
-  width: 36px;         /* Logos menores */
+  width: 36px;       
   height: auto;
   display: block;
   margin: 0;
@@ -699,26 +702,18 @@ footer {
   }
 }
 
-/* ============================================== */
-/* ESTILOS PARA FIXAR O FOOTER NA PÁGINA SOBRE    */
-/* ============================================== */
+     /* Página Sobre */
 
-/* Cria um container flexível que ocupa a altura total da tela.
-  A direção dos itens (Navbar, Main, Footer) é em coluna.
-*/
 .sobre-page-wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
   
-  /* Faz com que o elemento <main> cresça e ocupe todo o espaço 
-    disponível entre o Navbar e o Footer, empurrando o Footer para baixo.
-  */
   .sobre-page-wrapper main {
     flex-grow: 1;
   }
 
   .page-bottom-group {
-    margin-top: 10px; /* <<-- Altere este valor como quiser! (ex: 40px, 80px, etc.) */
+    margin-top: 10px;
   }
