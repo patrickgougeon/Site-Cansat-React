@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import ImagensDefault from "../images/ImagemDefault.png"
 
 export function Competicoes() {
 
@@ -71,12 +72,47 @@ export function Competicoes() {
 
             <br />
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam dolorem laboriosam sint odio, tempore officiis libero repellat corrupti dolorum vitae harum voluptas assumenda magni, similique incidunt hic nesciunt alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
+            <div id="container-premiacao">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat numquam dolorem laboriosam sint odio, tempore officiis libero repellat corrupti dolorum vitae harum voluptas assumenda magni, similique incidunt hic nesciunt alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint delectus nemo, adipisci odit quae iste quas corrupti aspernatur, ea, est incidunt deserunt? Molestiae tenetur veritatis est corrupti atque et necessitatibus!</p>
+
+              <img src={ImagensDefault} alt="" />
+            </div>
           </section>
         </div>
 
         <div id="competicoes-anteriores" className="inativo">
           <h1>Competições Anteriores</h1>
+
+          <h2>Competição Lorem</h2>
+          <div className="galeria">
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+          </div>
+
+          <h2>Competição Lorem 2</h2>
+          <div className="galeria">
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+          </div>
+
+          <h2>Competição Lorem 3</h2>
+          <div className="galeria">
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+            <img src={ImagensDefault} alt="" />
+          </div>
+
         </div>
       </main>
 

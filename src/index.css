@@ -179,6 +179,24 @@ main p {
     padding-right: 30px;
 }
 
+#container-premiacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container-premiacao img {
+    max-width: 230px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-self: center;
+}
+
+#container-premiacao p {
+    margin-bottom: 30px;
+}
+
 /* Footer */
 footer {
     background-color: #1F2B51;
@@ -187,6 +205,7 @@ footer {
 }
 
 #footer-info {
+    color: white;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -204,10 +223,34 @@ footer {
     padding-bottom: 15px;
 }
 
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#competicoes-anteriores h2 {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.galeria img {
+    margin-bottom: 50px;
+}
+
 
 @media (min-width: 769px) {
     .container {
         max-width: 1440px;
+    }
+
+    #container-premiacao {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #container-premiacao p {
+        margin-right: 100px;
     }
 
     .container .nav-link {
@@ -655,3 +698,27 @@ footer {
     width: 28px;
   }
 }
+
+/* ============================================== */
+/* ESTILOS PARA FIXAR O FOOTER NA PÁGINA SOBRE    */
+/* ============================================== */
+
+/* Cria um container flexível que ocupa a altura total da tela.
+  A direção dos itens (Navbar, Main, Footer) é em coluna.
+*/
+.sobre-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Faz com que o elemento <main> cresça e ocupe todo o espaço 
+    disponível entre o Navbar e o Footer, empurrando o Footer para baixo.
+  */
+  .sobre-page-wrapper main {
+    flex-grow: 1;
+  }
+
+  .page-bottom-group {
+    margin-top: 10px; /* <<-- Altere este valor como quiser! (ex: 40px, 80px, etc.) */
+  }
