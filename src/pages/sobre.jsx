@@ -7,12 +7,13 @@ import GrupoImagens from "../images/GrupoImagens.svg";
 
 export function Sobre() {
     return (
-        // O wrapper principal continua o mesmo
         <div className="sobre-page-wrapper">
             <Navbar />
 
-            {/* Agora o <main> contém APENAS a primeira seção */}
             <main>
+
+           {/* Section com as informações da empresa */}
+
                 <section className="primeira">
                     <div className="text-section">
                         <h2>Quem somos?</h2>
@@ -24,7 +25,8 @@ export function Sobre() {
                 </section>
             </main>
 
-            {/* Criamos uma div para agrupar o que vai ficar embaixo */}
+            {/* Section com as redes sociais da competição */}
+
             <div className="page-bottom-group">
                 <section className="segunda">
                     <div className="qconteiner">
