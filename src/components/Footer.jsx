@@ -2,7 +2,7 @@
 
 function Footer() {
 
-
+    {/* Footer das páginas com links e responsivo */}
 
     return (
         <footer>
