@@ -509,7 +509,7 @@ footer {
 #card {
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
-    padding: 150px;
+    padding: 120px;
     display: flex;
     max-width: 1600px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -531,15 +531,10 @@ footer {
     color: #333;
 }
 
-#img-section {
-    flex: 1;
-    background-color: #2d52a3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    height: 500px;
+#card img {
+    width: 200px;
+    height: 300px;
+    align-self: center;
 }
 
 #terceira {
@@ -651,25 +646,25 @@ footer {
     padding: 20px 0;
   }
 
-  .text-section {
-    max-width: 100%;
-    width: 100%;
-    text-align: center;
-    margin: 0 50px;
+  #card {
+    background-color: white;
+    border-radius: 35px;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    text-align: left;
   }
 
-  .img-section {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    display: flex;
-
+  #text-section {
+    width: 100px;
   }
 
-  .img-section img {
-    width: 80vw;
-    max-width: 220px;
-    height: auto;
+  #text-section p {
+    font-size: 30px;
+  }
+
+  #text-section h2 {
+    font-size: 40px;
   }
 
   .segunda {
@@ -687,15 +682,20 @@ footer {
     flex-direction: column;
   }
 
-  .patrocinadores-box img {
-    width: 28px;
+  #patrocinadores-box img {
+    width: 300px;
   }
 
-  #img-section {
+  #tcard2 {
     display: none;
   }
 
-  #tcards2 {
+  #tcard1 , #tcard2 {
+    width: 300px;
+    padding: 40px;
+  }
+
+  #card img {
     display: none;
   }
 }

@@ -15,7 +15,7 @@ import ImagemDefault from "../images/ImagemDefault.png"
               </h1>
             </section>
 
-            {/*Segunda Sextion com informações sobre a competição */}
+            {/* Segunda Sextion com informações sobre a competição */}
 
             <section id="segunda">
 
@@ -23,14 +23,12 @@ import ImagemDefault from "../images/ImagemDefault.png"
 
                 <div id="text-section">
 
-                    <h2>Sobre a competição</h2>
+                    <h2>Lorem</h2>
                     <p>LoremLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non risus finibus, pretium nibh sed, finibus eros. Sed tempor consectetur leo sed ultrices. Integer dui nunc, volutpat eu nisl in, ultricies viverra nulla. Phasellus eu vestibulum ipsum. Mauris quis condimentum ipsum. Morbi fermentum tincidunt lorem, sit amet posuere ipsum aliquet in. Suspendisse felis lacus, tincidunt eu dui.</p>
 
                 </div>
 
-                <div id="img-section">
-                  <img src="" alt="imagem da competição" />
-                </div>
+                  <img src={ImagemDefault} alt="imagem da competição" />
               </div>
             </section>
 
@@ -61,7 +59,6 @@ import ImagemDefault from "../images/ImagemDefault.png"
                     <div id="patrocinadores">
                     <div id="patrocinadores-box"><img src={ImagemDefault} alt="primeiro patrocinador" /></div>
                     <div id="patrocinadores-box"><img src={ImagemDefault} alt="segundo patrocinador" /></div>
-                    <div id="patrocinadores-box"><img src={ImagemDefault} alt="terceiro patrocinador" /></div>
                     </div>
                 </div>
 
