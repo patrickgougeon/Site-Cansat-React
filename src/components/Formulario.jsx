@@ -2,6 +2,8 @@ import { useState } from "react";
 import jsPDF from "jspdf";   
 import html2canvas from "html2canvas"; 
 
+        {/* Formulario para inscrição usando javascript */}
+
 export default function Formulario() {
   const [formData, setFormData] = useState({
     nomeEquipe: "", 
