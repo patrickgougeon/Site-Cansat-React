@@ -637,7 +637,7 @@ footer {
   padding-bottom: 6px;
 }
 
-/* Responsividade para desktop */
+/* Responsividade para mobile */
 @media (max-width: 768px) {
   .primeira {
     flex-direction: column;
