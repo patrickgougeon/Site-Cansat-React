@@ -4,7 +4,9 @@ import ImagensDefault from "../images/ImagemDefault.png"
 
 export function Competicoes() {
 
-  function alternarBotao(id1, id2) {
+  {/* Botão que alterna entre as competições */}
+
+  function alternarBotao(id1, id2) { 
     let botao1DOM = document.getElementById(id1);
     let botao2DOM = document.getElementById(id2);
     let cansatDOM = document.getElementById("cansat-2025")
@@ -41,6 +43,8 @@ export function Competicoes() {
             <h2>Regras</h2> 
 
             <br />
+
+            {/* link para pdf de regras */}
 
             <a href="">Documento de regras</a>
 
@@ -79,6 +83,8 @@ export function Competicoes() {
             </div>
           </section>
         </div>
+
+        {/* Galeria de fotos das últimas competições */}
 
         <div id="competicoes-anteriores" className="inativo">
           <h1>Competições Anteriores</h1>
