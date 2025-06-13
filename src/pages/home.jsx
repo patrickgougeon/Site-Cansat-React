@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import ImagemDefault from "../images/ImagemDefault.png"
 
  export function Home() {
     return (
@@ -58,9 +59,9 @@ import Footer from "../components/Footer"
                 <div id="qconteiner">
                     <h2>Patrocinadores</h2>
                     <div id="patrocinadores">
-                    <div id="patrocinadores-box"><img src="" alt="primeiro patrocinador" /></div>
-                    <div id="patrocinadores-box"><img src="" alt="segundo patrocinador" /></div>
-                    <div id="patrocinadores-box"><img src="" alt="terceiro patrocinador" /></div>
+                    <div id="patrocinadores-box"><img src={ImagemDefault} alt="primeiro patrocinador" /></div>
+                    <div id="patrocinadores-box"><img src={ImagemDefault} alt="segundo patrocinador" /></div>
+                    <div id="patrocinadores-box"><img src={ImagemDefault} alt="terceiro patrocinador" /></div>
                     </div>
                 </div>
 
