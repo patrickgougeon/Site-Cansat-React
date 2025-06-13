@@ -3,6 +3,8 @@ import { FaBars, FaTruckMedical } from "react-icons/fa6"
 import logo from "../images/LogoClara.svg"
 import { Link } from "react-router-dom"
 
+    {/* Header padrão com menu Hambúrguer links das páginas e menu Hambúrguer responsivo */}
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
