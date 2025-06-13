@@ -7,10 +7,14 @@ import Footer from "../components/Footer"
         <Navbar />
           <main id ="homemain">
 
+            {/* primeira section com link para inscrição */}
+
             <section id="primeira">
               <h1>LOREM IPSUM <br/><a href="inscricao.html"><button>Inscreva-se já!</button></a>
               </h1>
             </section>
+
+            {/*Segunda Sextion com informações sobre a competição */}
 
             <section id="segunda">
 
@@ -29,6 +33,8 @@ import Footer from "../components/Footer"
               </div>
             </section>
 
+          {/* Terceira section com informações sobre a competição */}
+
             <section id="terceira">
                 <div id="tcontainer">
                     <h1>Atualizações</h1>
@@ -45,6 +51,8 @@ import Footer from "../components/Footer"
                 </div>
 
             </section>
+
+         {/* Quarta section com as fotos dos patrocinadores */}
 
             <section id="quarta">
                 <div id="qconteiner">
